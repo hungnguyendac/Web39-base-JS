@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global CSS */
+.container {
+    width: 85%;
+    height: 500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+/* Xét kích thước column */
+.column {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+
+.column-4 {
+    width: calc(100% / 4);
+}
+
+/* Header main */
+.header-main {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+/* Product Hot */
+.product-hot {
+    width: 100%;
+    background-color: pink;
+    padding: 100px 0;
+}
+
+.box-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-content {
+    display: flex;
+    height: 80px;
+    background-color: #fff;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.box-content h3 {
+    font-size: 18px;
+    color: #111111;
+    text-transform: uppercase;
+}
